@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Первый сервер на Node JS</title>
+<link rel="stylesheet" href="app.css">
+<script src="/socket.io/socket.io.js"></script>
+
+</head>
+<body>
+<h1>Хороший node js</h1>
+<button id="but01" class="button">Нажать эту кнопку</button><br>
+<t id="t001"></t><br>
+
+<!--<xmp> plain text </xmp>  -->
+<textarea class="texteditor" id="txtar">
+
+Раз
+	два
+		три
+
+</textarea><br>
+<input type="button" id="btnfnread" value="Прочитать файл: ">
+<input type="text" id="filenameread"> 
+<input type="button" id="btnfnwrite" value="Записать в файл: ">
+<input type="text" id="filenamewrite"><br>
+<input type="text" id="input" class="sendinput" autofocus>
+<input type="button" id="send" value="Send"><br>
+<t id="t002"></t>
+
+<script src="app.js"></script>
+</body>
+</html>
